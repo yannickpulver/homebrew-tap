@@ -1,13 +1,13 @@
 cask "slides" do
-  version "1.7.4"
+  version "1.7.5"
 
   on_arm do
-    sha256 "c807f2a688f696a5f4d8eec876bdfed99290e593a52ecd32ccdc44b1c546f875"
+    sha256 "3f0bb20fc426ccc228880877d3bdf78dc7af9f21b7674fcb97a0dea382e5d74b"
     url "https://github.com/yannickpulver/slides/releases/download/#{version}/slides-#{version}-mac-aarch64.zip"
   end
 
   on_intel do
-    sha256 "cfd60031ccc6d123057f20cb23afb8f5f32e0ff9af15280b0102b59acaa0732e"
+    sha256 "3286eae75d1b406fac332f7b861f165cf03cfa6c3a18fe1f36322d5d96e3effc"
     url "https://github.com/yannickpulver/slides/releases/download/#{version}/slides-#{version}-mac-amd64.zip"
   end
 
