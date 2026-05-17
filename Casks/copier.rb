@@ -1,6 +1,6 @@
 cask "copier" do
   version "1.3.1"
-  sha256 "451a06a97dfe91eda8c4d280dcf7717281a1f29c15b3723c4423211db11459b8"
+  sha256 "12fac1ba4c854a2d5bbce705bac55ac6fbadde9a5ec4ccd898505f2906e1a98d"
 
   url "https://github.com/yannickpulver/copier/releases/download/v#{version}/copier-darwin-arm64-#{version}.zip"
   name "copier"
