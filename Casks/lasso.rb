@@ -1,6 +1,6 @@
 cask "lasso" do
   version "0.0.1"
-  sha256 "cb8e46a1310bb72bce4ae04998c181164de18b9908e07c7e2c7b564164358605"
+  sha256 "1a8eac1d36a2dbd14c7a629f75e28825b0e3d0dfed6a4ca5de8b0c825a69aeda"
 
   url "https://github.com/yannickpulver/lasso/releases/download/v#{version}/Lasso.zip"
   name "Lasso"
