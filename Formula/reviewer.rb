@@ -1,9 +1,9 @@
 class Reviewer < Formula
   desc "Local CLI that groups a PR/MR diff with Claude Code and serves a review UI"
   homepage "https://github.com/yannickpulver/reviewer"
-  url "https://github.com/yannickpulver/reviewer/releases/download/v0.1.4/reviewer-0.1.4.tgz"
-  sha256 "f9f7a351f3b7f327219123a91333489350ebd5ec47ae3e56886f6c86211999e0"
-  version "0.1.4"
+  url "https://github.com/yannickpulver/reviewer/releases/download/v0.2.0/reviewer-0.2.0.tgz"
+  sha256 "14e81847d03f9af6634e267a9e816123f35a0760be2fbbf55326e5ae56eef917"
+  version "0.2.0"
   license "MIT"
 
   depends_on "node"
