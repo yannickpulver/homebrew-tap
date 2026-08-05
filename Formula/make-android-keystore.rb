@@ -1,8 +1,8 @@
 class MakeAndroidKeystore < Formula
   desc "Generate Android signing keystores with 1Password-managed passwords"
   homepage "https://github.com/yannickpulver/make-android-keystore"
-  url "https://github.com/yannickpulver/make-android-keystore/archive/refs/tags/v0.1.4.tar.gz"
-  sha256 "6312eaa959cc754737b4be320394b70cddd39fe4925b0499bb7fc8daecc8dbe0"
+  url "https://github.com/yannickpulver/make-android-keystore/archive/refs/tags/v0.1.5.tar.gz"
+  sha256 "fda923689fb256eaa22e39ff8c26855a4817afd7066170e2468d4409ed7ee420"
   license "MIT"
 
   depends_on "jq"
