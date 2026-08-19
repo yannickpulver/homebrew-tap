@@ -1,6 +1,6 @@
 cask "brief" do
-  version "1.2.2"
-  sha256 "99575006b9d744027cf71d4a1fdae867595407e25f473814cb6027f00e77379f"
+  version "1.2.3"
+  sha256 "b0b627307cf1013676ad929fb7784d2f4f108ac3a8dd174a81d77aa184b4933e"
 
   url "https://github.com/yannickpulver/brief/releases/download/v#{version}/Brief-#{version}.zip"
   name "Brief"
