@@ -1,28 +1,28 @@
 class Budget < Formula
   desc "Command-line client for the self-hosted budget app"
   homepage "https://github.com/yannickpulver/budget"
-  version "0.3.2"
+  version "0.3.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/yannickpulver/budget/releases/download/v0.3.2/budget-0.3.2-darwin-arm64.tar.gz"
-      sha256 "1c840541d18563f7b10ccf93308af07f882ca21e499f872cf9eab3b21d07b9c1"
+      url "https://github.com/yannickpulver/budget/releases/download/v0.3.3/budget-0.3.3-darwin-arm64.tar.gz"
+      sha256 "95af09e370fab9432caaab471adf1f64dfd33303cd4c5a05f6327c503d50c7af"
     end
     on_intel do
-      url "https://github.com/yannickpulver/budget/releases/download/v0.3.2/budget-0.3.2-darwin-x64.tar.gz"
-      sha256 "d5cfffa028143659e6a1353835b2fa114d2aaa369d937fdd70eea8bd760e2189"
+      url "https://github.com/yannickpulver/budget/releases/download/v0.3.3/budget-0.3.3-darwin-x64.tar.gz"
+      sha256 "4948fc34d8db19df67bfd8a24e2427dfce777c8b8933a2c8fc8cc4f0c626d66c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/yannickpulver/budget/releases/download/v0.3.2/budget-0.3.2-linux-arm64.tar.gz"
-      sha256 "8c847605ede444e0b86d98160ddadcc592f63c5c5409f3a164ee96033d9e9c04"
+      url "https://github.com/yannickpulver/budget/releases/download/v0.3.3/budget-0.3.3-linux-arm64.tar.gz"
+      sha256 "66418208feffdab226f138cddbf9eb463f84a8cf101e678b703f8147d9e1fcf2"
     end
     on_intel do
-      url "https://github.com/yannickpulver/budget/releases/download/v0.3.2/budget-0.3.2-linux-x64.tar.gz"
-      sha256 "8e33718afb27bba23819d0e6556a0f63a0b56a49ed41b8e6d00aa045e7807ce2"
+      url "https://github.com/yannickpulver/budget/releases/download/v0.3.3/budget-0.3.3-linux-x64.tar.gz"
+      sha256 "dab3f2b5b2cf1feb878dbd0bdd37fc8fc2450ef1b67834fde8c241d975567d86"
     end
   end
 
