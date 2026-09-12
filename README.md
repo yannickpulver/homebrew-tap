@@ -16,6 +16,15 @@ brew install --cask copier
 brew install --cask slides
 ```
 
+## CLI tools
+
+```sh
+brew install yannickpulver/tap/bonbox
+brew install yannickpulver/tap/reviewer
+brew install yannickpulver/tap/budget
+brew install yannickpulver/tap/make-android-keystore
+```
+
 ## Update
 
 ```sh
