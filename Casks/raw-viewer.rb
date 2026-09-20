@@ -1,6 +1,6 @@
 cask "raw-viewer" do
-  version "0.5.0"
-  sha256 "8466d513d3504d067d5d604af2c73979814cec924dc8a66ea843ef51a93a8346"
+  version "0.5.1"
+  sha256 "5e6eb8234ca45e3f27374dc3d854495e76d836041edb25aabaa13543db756ba0"
 
   url "https://github.com/yannickpulver/raw-viewer/releases/download/v#{version}/RAW-Viewer.zip"
   name "RAW Viewer"
