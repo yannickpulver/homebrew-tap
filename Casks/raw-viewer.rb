@@ -1,6 +1,6 @@
 cask "raw-viewer" do
-  version "0.5.4"
-  sha256 "e741d3eb896bd27adae93ebe5958597a4f8aebeeda3422ea86e34f1f715022d9"
+  version "0.5.5"
+  sha256 "ecc2e48deb686e3a1e2078659dfafebf6842828256f4a5d3712f3cbe93c83290"
 
   url "https://github.com/yannickpulver/raw-viewer/releases/download/v#{version}/RAW-Viewer.zip"
   name "RAW Viewer"
@@ -8,6 +8,7 @@ cask "raw-viewer" do
   homepage "https://github.com/yannickpulver/raw-viewer"
 
   depends_on macos: ">= :sequoia"
+  auto_updates true
 
   app "RAW Viewer.app"
 
