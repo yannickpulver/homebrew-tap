@@ -1,6 +1,6 @@
 cask "print-lab" do
-  version "0.1.4"
-  sha256 "85586d012835edfb7ae55e333adafffc551960d58f44b23603fe43f8f1eee383"
+  version "0.1.5"
+  sha256 "72488624e94cd65f826c89b58292e0eaea2a6775e32d6877a0bedf64732f39b8"
 
   url "https://github.com/yannickpulver/print-lab/releases/download/v#{version}/Print-Lab.zip"
   name "Print Lab"
