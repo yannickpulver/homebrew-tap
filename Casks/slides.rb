@@ -1,24 +1,21 @@
 cask "slides" do
-  version "1.7.6"
+  version "2.0.0"
+  sha256 "9c543e1d28685031cd073f2d2277fab81c51c541d1e5b74b873e076f5a375a5b"
 
-  on_arm do
-    sha256 "94c444d32fbd3fb7bc50e053627fc736e1d3ac702998ff009596c046404e83a2"
-    url "https://github.com/yannickpulver/slides/releases/download/#{version}/slides-#{version}-mac-aarch64.zip"
-  end
-
-  on_intel do
-    sha256 "4dcc78bf9f149ee9b483e9f9100ca01d47fa9cd3ab60e7f2910fb5573c819000"
-    url "https://github.com/yannickpulver/slides/releases/download/#{version}/slides-#{version}-mac-amd64.zip"
-  end
-
+  url "https://github.com/yannickpulver/slides/releases/download/#{version}/Slides-#{version}.zip"
   name "Slides"
-  desc "Compose Multiplatform slides app"
+  desc "Photo and video carousel editor"
   homepage "https://github.com/yannickpulver/slides"
+
+  # Sparkle updates the app in place, so brew shouldn't try to as well.
+  auto_updates true
+  depends_on macos: ">= :tahoe"
 
   app "Slides.app"
 
   zap trash: [
     "~/Library/Application Support/Slides",
     "~/Library/Preferences/com.yannickpulver.slides.plist",
+    "~/Library/Saved Application State/com.yannickpulver.slides.savedState",
   ]
 end
