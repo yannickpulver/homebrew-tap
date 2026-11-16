@@ -1,6 +1,6 @@
 cask "slides" do
-  version "2.0.8"
-  sha256 "f918e911c5b5951ffd418ba9c18d44b654c09f915c722de63077d21a695c4364"
+  version "2.0.9"
+  sha256 "eab926bf3adeae3b2706542c23d4fa1774ebf19859c33173059788d087709c09"
 
   url "https://github.com/yannickpulver/slides/releases/download/#{version}/Slides-#{version}.zip"
   name "Slides"
