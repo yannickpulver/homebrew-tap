@@ -1,6 +1,6 @@
 cask "copier" do
-  version "2.0.17"
-  sha256 "fa629ec1302b4fa85ee458f289097ada023ee57cd85fc979da20bff96bf9ec3f"
+  version "2.0.18"
+  sha256 "0cd00c3299368822fb49810e0a99c13947ea53f2694aabfc7d03c022d5ea9a56"
 
   url "https://github.com/yannickpulver/copier/releases/download/v#{version}/Copier-#{version}.zip"
   name "copier"
