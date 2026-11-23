@@ -1,9 +1,9 @@
 class Bonbox < Formula
   desc "Manage your bonbox receipts, invoices and customers from the terminal"
   homepage "https://bonbox.io"
-  url "https://registry.npmjs.org/bonbox/-/bonbox-0.3.0.tgz"
-  version "0.3.0"
-  sha256 "25fd19eeeebc3ec059a960c2749314a40477d0dfbbe04ce67b01ec4d5a225887"
+  url "https://registry.npmjs.org/bonbox/-/bonbox-0.5.0.tgz"
+  version "0.5.0"
+  sha256 "070ab17031dc2849a170d95735b8f8ce712bbf4f3e09ac7c7c09691c794b4778"
   license :cannot_represent
 
   depends_on "node"
